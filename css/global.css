@@ -1,0 +1,74 @@
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans" , sans-serif;
+    line-height: 1.15;
+}
+
+.container{
+    margin: auto auto;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
+}
+@media(min-width:600px){
+     .container{
+        width: 580px;
+    }
+}
+@media(min-width:768px){
+    .container{
+       width: 750px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+       width: 975px;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+       width: 1180px;
+    }
+}
+
+/* Header Start */
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+header .container ul{
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+}
+header .container ul li a{
+    text-decoration: none;
+    color: var(--clr-grey-2);
+    margin: 20px;
+    padding: 10px;
+}
+header .container ul li a:hover{
+    border-bottom: 2px solid var(--clr-primary-7);
+}
+/* Header End */
+
+/* The big title of products and single products page */
+.title-super{
+    padding: 40px 0;
+    background-color: #eaded7;
+}
+.title-super .title{
+    font-size: 32px;
+}
+.title-super span{
+    color: var(--clr-primary-3);
+}
