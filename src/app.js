@@ -1,5 +1,6 @@
 
-      const products = document.getElementsByClassName("products")[0];
+   alert('this website still under developement is not responsive yet...');
+   const products = document.getElementsByClassName("products")[0];
       const categories = document.querySelectorAll("aside .categories button");
       const priceRange = document.querySelector('input[type="range"]');
       const order1 = document.querySelector(".orderButt1");
